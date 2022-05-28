@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phonefairbase">
+
+    <TextView
+        android:id="@+id/phnenumber"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+      android:textStyle="bold"
+        android:layout_marginTop="60dp"
+
+        android:text="Enter Your Phone Number">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="110dp"
+        android:ems="10"
+
+        android:hint="number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/numbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="180dp"
+        android:text="Generate otp" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="240dp"
+        android:ems="10"
+
+        android:hint="OTP"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/otpbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="320dp"
+        android:text="varify otp"
+        />
+
+
+</RelativeLayout>

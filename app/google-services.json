@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017427502097",
+    "project_id": "myandroidproject-b79d0",
+    "storage_bucket": "myandroidproject-b79d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017427502097:android:6132485e30cc9d9fb4bdb0",
+        "android_client_info": {
+          "package_name": "com.Arya.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017427502097-5j9vdcrqb7b0mae4qsvv4k9o4mpn75hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPyiGMLpk-PRJftScdFhgC3xzPTsKyQig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017427502097-5j9vdcrqb7b0mae4qsvv4k9o4mpn75hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
